@@ -1,0 +1,19 @@
+{
+"name": "SIS exam helper",
+"description": "SIS exam helper by luk27",
+"version": "1.1",
+"manifest_version": 3,
+"options_ui": {
+  "page": "options.html",
+  "open_in_tab": false
+},
+"content_scripts": [
+    {
+      "matches": ["https://is.cuni.cz/*"],
+      "js": ["myscript.js"],
+	  "run_at": "document_idle",
+	  "persistent": true
+    }
+  ],
+  "permissions": ["activeTab", "storage"]
+}
