@@ -1,5 +1,7 @@
 ## SIS exam helper
-Pomucka pro prihlasovani na zkousky v SIS UK.
+Pomocny plugin do Chrome pro prihlasovani na zkousky v SIS UK.
+
+DISCLAIMER: Plugin nezarucuje, ze ke zkousce se skript opravdu prihlasi spravne! Autor navic negarantuje, ze skript nemuze omylem kliknout na jine prvky v SIS (ackoliv je to pomerne nepravdepodobne)!
 
 ### Instalace
 Staci stahnout cely adresar jako zip archiv a rozbalit ho.
@@ -21,5 +23,9 @@ Priklad pouziti:
 - V konzoli bude bezet nejaky vypis - tim se zjisti, ze je skript opravdu aktivni.
 - Po uplynuti casu (tedy v 19:00:01) se stranka AUTOMATICKY reloadne a klikne na zapis.
 - Vypnu rozsireni.
+
+### Poznamky
+- Je nutne zajistit, aby cas v pocitaci byl spravny a synchronizovany s internetem, jinak skript nema jak poznat skutecny cas!
+- Skript nijak nekontroluje data, takze do inputu jde zadat cokoliv. V takovem pripade logicky nebude nic fungovat, proto si na to musi dat uzivatel pozor sam.
 
 gl & hf
