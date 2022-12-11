@@ -37,9 +37,9 @@ function run() {
 	}
 
 	function success() {
-		console.log(document.getElementsByClassName(rowClassName)[rowNumber].children[1].children[0].innerHTML);
-		console.log(document.getElementsByClassName(rowClassName)[rowNumber].children[1].children[0].href); //tady je href na ten link na kterej se klika
-		window.location.href = document.getElementsByClassName(rowClassName)[rowNumber].children[1].children[0].href;
+		console.log(document.getElementsByClassName(rowClassName)[rowNumber-1].children[1].children[0].innerHTML);
+		console.log(document.getElementsByClassName(rowClassName)[rowNumber-1].children[1].children[0].href); //tady je href na ten link na kterej se klika
+		window.location.href = document.getElementsByClassName(rowClassName)[rowNumber-1].children[1].children[0].href;
 	}
 
 	function resetPage() {
